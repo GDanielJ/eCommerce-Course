@@ -9,6 +9,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{D57632D8-AB06-4956-B3EE-696041BD4BA8}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "client", "client\", "{1DB10CCD-3AF4-4CD8-B4D5-4845E6EE6421}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63601"
+		Debug.AspNetCompiler.PhysicalPath = "client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63601\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63601"
+		Release.AspNetCompiler.PhysicalPath = "client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63601\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63601"
+		SlnRelativePath = "client\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +76,18 @@ Global
 		{D57632D8-AB06-4956-B3EE-696041BD4BA8}.Release|x64.Build.0 = Release|Any CPU
 		{D57632D8-AB06-4956-B3EE-696041BD4BA8}.Release|x86.ActiveCfg = Release|Any CPU
 		{D57632D8-AB06-4956-B3EE-696041BD4BA8}.Release|x86.Build.0 = Release|Any CPU
+		{1DB10CCD-3AF4-4CD8-B4D5-4845E6EE6421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB10CCD-3AF4-4CD8-B4D5-4845E6EE6421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB10CCD-3AF4-4CD8-B4D5-4845E6EE6421}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1DB10CCD-3AF4-4CD8-B4D5-4845E6EE6421}.Debug|x64.Build.0 = Debug|Any CPU
+		{1DB10CCD-3AF4-4CD8-B4D5-4845E6EE6421}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1DB10CCD-3AF4-4CD8-B4D5-4845E6EE6421}.Debug|x86.Build.0 = Debug|Any CPU
+		{1DB10CCD-3AF4-4CD8-B4D5-4845E6EE6421}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB10CCD-3AF4-4CD8-B4D5-4845E6EE6421}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1DB10CCD-3AF4-4CD8-B4D5-4845E6EE6421}.Release|x64.ActiveCfg = Debug|Any CPU
+		{1DB10CCD-3AF4-4CD8-B4D5-4845E6EE6421}.Release|x64.Build.0 = Debug|Any CPU
+		{1DB10CCD-3AF4-4CD8-B4D5-4845E6EE6421}.Release|x86.ActiveCfg = Debug|Any CPU
+		{1DB10CCD-3AF4-4CD8-B4D5-4845E6EE6421}.Release|x86.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
