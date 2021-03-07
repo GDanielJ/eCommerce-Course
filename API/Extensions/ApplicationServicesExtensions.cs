@@ -21,6 +21,7 @@ namespace API.Extensions
             services.AddScoped<IBasketRepository, BasketRepository>();
             services.AddScoped<IOrderService, OrderService>();
             services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.Configure<ApiBehaviorOptions>(options =>
             { // This needs to be added AFTER services.AddControllers();
