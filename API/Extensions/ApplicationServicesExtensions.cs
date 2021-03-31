@@ -24,6 +24,8 @@ namespace API.Extensions
             services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+            services.AddSingleton<IResponseCacheService, ResponseCacheService>();
+
             services.Configure<ApiBehaviorOptions>(options =>
             { // This needs to be added AFTER services.AddControllers();
                 options.InvalidModelStateResponseFactory = actionContext =>
